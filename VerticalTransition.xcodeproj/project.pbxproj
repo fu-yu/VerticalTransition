@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58780E719227EE7002BB522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58780E619227EE7002BB522 /* Foundation.framework */; };
+		B58780E919227EE7002BB522 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58780E819227EE7002BB522 /* CoreGraphics.framework */; };
+		B58780EB19227EE7002BB522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58780EA19227EE7002BB522 /* UIKit.framework */; };
+		B58780F119227EE7002BB522 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58780EF19227EE7002BB522 /* InfoPlist.strings */; };
+		B58780F319227EE7002BB522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58780F219227EE7002BB522 /* main.m */; };
+		B58780F719227EE7002BB522 /* VTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58780F619227EE7002BB522 /* VTAppDelegate.m */; };
+		B58780FA19227EE7002BB522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58780F819227EE7002BB522 /* Main.storyboard */; };
+		B58780FD19227EE7002BB522 /* VTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58780FC19227EE7002BB522 /* VTViewController.m */; };
+		B58780FF19227EE7002BB522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58780FE19227EE7002BB522 /* Images.xcassets */; };
+		B587810619227EE7002BB522 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B587810519227EE7002BB522 /* XCTest.framework */; };
+		B587810719227EE7002BB522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58780E619227EE7002BB522 /* Foundation.framework */; };
+		B587810819227EE7002BB522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58780EA19227EE7002BB522 /* UIKit.framework */; };
+		B587811019227EE7002BB522 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B587810E19227EE7002BB522 /* InfoPlist.strings */; };
+		B587811219227EE7002BB522 /* VerticalTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B587811119227EE7002BB522 /* VerticalTransitionTests.m */; };
+		B587811D1922808B002BB522 /* VTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B587811C1922808B002BB522 /* VTSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B587810919227EE7002BB522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58780DB19227EE7002BB522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58780E219227EE7002BB522;
+			remoteInfo = VerticalTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58780E319227EE7002BB522 /* VerticalTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58780E619227EE7002BB522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B58780E819227EE7002BB522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B58780EA19227EE7002BB522 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B58780EE19227EE7002BB522 /* VerticalTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerticalTransition-Info.plist"; sourceTree = "<group>"; };
+		B58780F019227EE7002BB522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B58780F219227EE7002BB522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58780F419227EE7002BB522 /* VerticalTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerticalTransition-Prefix.pch"; sourceTree = "<group>"; };
+		B58780F519227EE7002BB522 /* VTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTAppDelegate.h; sourceTree = "<group>"; };
+		B58780F619227EE7002BB522 /* VTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTAppDelegate.m; sourceTree = "<group>"; };
+		B58780F919227EE7002BB522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58780FB19227EE7002BB522 /* VTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTViewController.h; sourceTree = "<group>"; };
+		B58780FC19227EE7002BB522 /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
+		B58780FE19227EE7002BB522 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B587810419227EE7002BB522 /* VerticalTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587810519227EE7002BB522 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B587810D19227EE7002BB522 /* VerticalTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerticalTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		B587810F19227EE7002BB522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B587811119227EE7002BB522 /* VerticalTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalTransitionTests.m; sourceTree = "<group>"; };
+		B587811B1922808B002BB522 /* VTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSecondViewController.h; sourceTree = "<group>"; };
+		B587811C1922808B002BB522 /* VTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58780E019227EE7002BB522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58780E919227EE7002BB522 /* CoreGraphics.framework in Frameworks */,
+				B58780EB19227EE7002BB522 /* UIKit.framework in Frameworks */,
+				B58780E719227EE7002BB522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B587810119227EE7002BB522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B587810619227EE7002BB522 /* XCTest.framework in Frameworks */,
+				B587810819227EE7002BB522 /* UIKit.framework in Frameworks */,
+				B587810719227EE7002BB522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58780DA19227EE7002BB522 = {
+			isa = PBXGroup;
+			children = (
+				B58780EC19227EE7002BB522 /* VerticalTransition */,
+				B587810B19227EE7002BB522 /* VerticalTransitionTests */,
+				B58780E519227EE7002BB522 /* Frameworks */,
+				B58780E419227EE7002BB522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58780E419227EE7002BB522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58780E319227EE7002BB522 /* VerticalTransition.app */,
+				B587810419227EE7002BB522 /* VerticalTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58780E519227EE7002BB522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58780E619227EE7002BB522 /* Foundation.framework */,
+				B58780E819227EE7002BB522 /* CoreGraphics.framework */,
+				B58780EA19227EE7002BB522 /* UIKit.framework */,
+				B587810519227EE7002BB522 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58780EC19227EE7002BB522 /* VerticalTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B58780F519227EE7002BB522 /* VTAppDelegate.h */,
+				B58780F619227EE7002BB522 /* VTAppDelegate.m */,
+				B58780F819227EE7002BB522 /* Main.storyboard */,
+				B58780FB19227EE7002BB522 /* VTViewController.h */,
+				B58780FC19227EE7002BB522 /* VTViewController.m */,
+				B58780FE19227EE7002BB522 /* Images.xcassets */,
+				B58780ED19227EE7002BB522 /* Supporting Files */,
+				B587811B1922808B002BB522 /* VTSecondViewController.h */,
+				B587811C1922808B002BB522 /* VTSecondViewController.m */,
+			);
+			path = VerticalTransition;
+			sourceTree = "<group>";
+		};
+		B58780ED19227EE7002BB522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58780EE19227EE7002BB522 /* VerticalTransition-Info.plist */,
+				B58780EF19227EE7002BB522 /* InfoPlist.strings */,
+				B58780F219227EE7002BB522 /* main.m */,
+				B58780F419227EE7002BB522 /* VerticalTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B587810B19227EE7002BB522 /* VerticalTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B587811119227EE7002BB522 /* VerticalTransitionTests.m */,
+				B587810C19227EE7002BB522 /* Supporting Files */,
+			);
+			path = VerticalTransitionTests;
+			sourceTree = "<group>";
+		};
+		B587810C19227EE7002BB522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B587810D19227EE7002BB522 /* VerticalTransitionTests-Info.plist */,
+				B587810E19227EE7002BB522 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58780E219227EE7002BB522 /* VerticalTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587811519227EE7002BB522 /* Build configuration list for PBXNativeTarget "VerticalTransition" */;
+			buildPhases = (
+				B58780DF19227EE7002BB522 /* Sources */,
+				B58780E019227EE7002BB522 /* Frameworks */,
+				B58780E119227EE7002BB522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalTransition;
+			productName = VerticalTransition;
+			productReference = B58780E319227EE7002BB522 /* VerticalTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B587810319227EE7002BB522 /* VerticalTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587811819227EE7002BB522 /* Build configuration list for PBXNativeTarget "VerticalTransitionTests" */;
+			buildPhases = (
+				B587810019227EE7002BB522 /* Sources */,
+				B587810119227EE7002BB522 /* Frameworks */,
+				B587810219227EE7002BB522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587810A19227EE7002BB522 /* PBXTargetDependency */,
+			);
+			name = VerticalTransitionTests;
+			productName = VerticalTransitionTests;
+			productReference = B587810419227EE7002BB522 /* VerticalTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58780DB19227EE7002BB522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yucha;
+				TargetAttributes = {
+					B587810319227EE7002BB522 = {
+						TestTargetID = B58780E219227EE7002BB522;
+					};
+				};
+			};
+			buildConfigurationList = B58780DE19227EE7002BB522 /* Build configuration list for PBXProject "VerticalTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58780DA19227EE7002BB522;
+			productRefGroup = B58780E419227EE7002BB522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58780E219227EE7002BB522 /* VerticalTransition */,
+				B587810319227EE7002BB522 /* VerticalTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58780E119227EE7002BB522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58780FF19227EE7002BB522 /* Images.xcassets in Resources */,
+				B58780F119227EE7002BB522 /* InfoPlist.strings in Resources */,
+				B58780FA19227EE7002BB522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B587810219227EE7002BB522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B587811019227EE7002BB522 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58780DF19227EE7002BB522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B587811D1922808B002BB522 /* VTSecondViewController.m in Sources */,
+				B58780FD19227EE7002BB522 /* VTViewController.m in Sources */,
+				B58780F719227EE7002BB522 /* VTAppDelegate.m in Sources */,
+				B58780F319227EE7002BB522 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B587810019227EE7002BB522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B587811219227EE7002BB522 /* VerticalTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B587810A19227EE7002BB522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58780E219227EE7002BB522 /* VerticalTransition */;
+			targetProxy = B587810919227EE7002BB522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58780EF19227EE7002BB522 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58780F019227EE7002BB522 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B58780F819227EE7002BB522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58780F919227EE7002BB522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B587810E19227EE7002BB522 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B587810F19227EE7002BB522 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B587811319227EE7002BB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B587811419227EE7002BB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B587811619227EE7002BB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalTransition/VerticalTransition-Prefix.pch";
+				INFOPLIST_FILE = "VerticalTransition/VerticalTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B587811719227EE7002BB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalTransition/VerticalTransition-Prefix.pch";
+				INFOPLIST_FILE = "VerticalTransition/VerticalTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B587811919227EE7002BB522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VerticalTransition.app/VerticalTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalTransition/VerticalTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VerticalTransitionTests/VerticalTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B587811A19227EE7002BB522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VerticalTransition.app/VerticalTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalTransition/VerticalTransition-Prefix.pch";
+				INFOPLIST_FILE = "VerticalTransitionTests/VerticalTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58780DE19227EE7002BB522 /* Build configuration list for PBXProject "VerticalTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587811319227EE7002BB522 /* Debug */,
+				B587811419227EE7002BB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B587811519227EE7002BB522 /* Build configuration list for PBXNativeTarget "VerticalTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587811619227EE7002BB522 /* Debug */,
+				B587811719227EE7002BB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B587811819227EE7002BB522 /* Build configuration list for PBXNativeTarget "VerticalTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587811919227EE7002BB522 /* Debug */,
+				B587811A19227EE7002BB522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58780DB19227EE7002BB522 /* Project object */;
+}
